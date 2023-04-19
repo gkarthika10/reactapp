@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* ALMOST Styles for CandidateConsole.jsx taken from AuctionWindow.css */
+
+/* Section Content */
+.section__bg {
+  background: rgba(20, 67, 36, 0.06);
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px #00000035;
+}
+
+.auction__biddings .auction__bidding__item .bidding__job__role {
+  font-weight: 500;
+  color: #666666;
+  font-size: 0.91rem;
+}
+
+.auction__biddings .auction__bidding__item .bidding__ctc__offering,
+.auction__biddings .auction__bidding__item .bidding__joining__date {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.auction__biddings .auction__bidding__item .bidding__ctc__offering span:nth-child(1),
+.auction__biddings .auction__bidding__item .bidding__joining__date span:nth-child(1) {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.auction__biddings .auction__bidding__item .bidding__ctc__offering span:nth-child(2),
+.auction__biddings .auction__bidding__item .bidding__joining__date span:nth-child(2) {
+  color: #3d3d3d;
+  font-size: 0.89rem;
+}
+
+.auction__biddings .auction__bidding__item .offer__in__hand__icon svg {
+  font-size: 1.9rem;
+  color: #467ae0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.auction__biddings .auction__bidding__item .offer__in__hand__icon:first-child {
+  margin-right: 7px;
+}
+
+.auction__biddings .auction__bidding__item .offer__in__hand__icon svg:hover {
+  color: #3a65b9;
+}
+
+.accept__reject__btn button {
+  padding: 4px 13px;
+  font-weight: 500;
+  font-size: 0.93rem;
+  letter-spacing: 0.3px;
+}
+
+.accept__reject__btn button:nth-child(1) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.accept__reject__btn button:nth-child(2) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+textarea[name="reject_reason"] {
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+
+textarea[name="reject_reason"]:focus {
+  border-color: grey !important;
+}

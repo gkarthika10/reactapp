@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+.employer__console__box {
+  line-height: 1;
+}
+
+.employer__console__box .section__toggle {
+  padding: 12px 40px 10px 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.employer__console__box .console__section__heading {
+  text-transform: uppercase;
+  color: #575757;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+.employer__console__box .console__search__box {
+  border-radius: 0;
+}
+
+.console__search__box .input-group {
+  background: rgba(20, 67, 36, 0.1);
+  border: 1.5px solid #b3b3b3;
+}
+
+.console__search__box .input-group-text {
+  border-radius: 0;
+  border: none;
+  padding-left: 15px;
+  padding-right: 3px;
+}
+
+.console__search__box .input-group-text svg {
+  transform: scale(1.4);
+  color: #575757;
+}
+
+.console__search__box input.form-control {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.console__search__box input.form-control:focus {
+  background: transparent;
+}
+
+.console__search__box input::placeholder {
+  font-size: 0.92rem;
+  letter-spacing: 0.7px;
+}
+
+@media screen and (max-width: 991px) {
+  .employer__console__box .section__toggle {
+    flex: 1;
+  }
+}
+
+/* ==== JOB ROLES ==== */
+.employer__console__box .job__role__name {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.employer__console__box .work__location {
+  font-size: 0.91rem;
+  font-style: italic;
+  color: #616161;
+}
+
+.employer__console__box .job__details {
+  font-weight: 500;
+  font-size: 0.93rem;
+}
+
+.employer__console__box .job__desc__box img {
+  max-width: 100%;
+  max-height: 40px;
+  object-fit: cover;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.employer__console__box .job__desc__box img:hover {
+  opacity: 1;
+}
+
+.employer__console__box .input__chip__label {
+  border: 1px solid #ced4da;
+  transition: all 0.3s;
+}
+
+.employer__console__box .form-control,
+.employer__console__box .input__chip__label {
+  border-radius: 0;
+}
+
+.employer__console__box textarea.form-control:focus {
+  border: 1px solid #7e7e7e;
+}
+
+.employer__console__box .input__chip__label:focus-within {
+  margin: 0;
+  border: 1px solid #7e7e7e;
+}
+
+/* ==== EMPLOYER PROFILE ==== */
+.employer__profile__box .info__col1 img {
+  height: 100px;
+  border-radius: 0;
+}

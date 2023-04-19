@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+.auction__window__box {
+  padding-left: 4.5rem !important;
+  padding-right: 4.5rem !important;
+  /* margin-top: 2rem;
+  margin-bottom: 2.5rem; */
+}
+
+.auction__window__inner__box {
+  background: rgba(20, 67, 36, 0.06);
+  /* box-shadow: 0px 2px 4px #00000035; */
+  font-family: "Roboto", sans-serif;
+}
+
+/* Auction Candidate Info. */
+.auction__candidate__info .info__col__common {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auction__candidate__info .info__col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auction__candidate__info .info__col1 img {
+  max-width: 100%;
+  height: 165px;
+  border-radius: 50%;
+}
+
+.auction__candidate__info .info__col2 {
+  line-height: 1;
+}
+
+.auction__candidate__info .info__col2 .candidate__name {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.auction__candidate__info .info__col2 .candidate__company__name {
+  font-style: italic;
+  color: #808080;
+  font-size: 0.87rem;
+  letter-spacing: 0.15px;
+}
+
+.auction__candidate__info .info__col2 .extra__info {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  line-height: 0.6;
+  font-style: italic;
+}
+
+.auction__candidate__info .info__col2 .extra__info span {
+  font-weight: 500;
+}
+
+.auction__candidate__info .info__col2 .bid__status {
+  font-style: normal;
+  font-size: 0.83rem;
+  margin-left: 1.5px;
+  color: #198754 !important;
+}
+
+.auction__candidate__info .info__col3 ul {
+  margin-top: 3px;
+  padding-left: 0;
+  list-style-type: none;
+  line-height: 1.9;
+  font-size: 0.92rem;
+}
+
+.auction__candidate__info .info__col3 ul li span {
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.auction__candidate__info .info__col4 {
+  text-align: center;
+}
+
+.auction__candidate__info .info__col4 .bid__company__name span {
+  font-style: italic;
+  font-size: 0.93rem;
+}
+
+.auction__candidate__info .info__col4 .bid__company__name span:nth-child(1) {
+  color: #808080;
+  margin-right: 2px;
+}
+
+.auction__candidate__info .info__col4 .bid__company__name span:nth-child(2) {
+  font-weight: 500;
+}
+
+.auction__candidate__info .candidate__skills {
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+}
+
+.auction__candidate__info .candidate__skills span:nth-child(1) {
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+.auction__candidate__info .candidate__skills span:nth-child(2) {
+  color: #464646;
+}
+
+.auction__candidate__info .candidate__skills div span {
+  background: #d3d3d3;
+  font-size: 0.8rem !important;
+}
+
+.auction__candidate__info .window__divider {
+  background-color: #c4c4c4;
+  width: 15%;
+  margin: 10px auto;
+}
+
+/* Raise Bid Amount */
+.auction__window__inner__box .raise__bid__amount__box {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background: #fcf9f9;
+  box-shadow: 0px 2px 4px #00000035;
+}
+
+.raise__bid__amount__box .heading {
+  text-align: center;
+}
+
+.raise__bid__amount__box .auction__countdown {
+  text-align: center;
+  font-weight: 500;
+  color: #555555;
+  font-family: "Roboto", sans-serif;
+}
+
+.raise__bid__amount__box .auction__countdown span {
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  letter-spacing: 0px;
+}
+
+.raise__bid__amount__box .input-group {
+  margin: auto;
+  box-shadow: 0px 1px 4px #00000035;
+  border-radius: 3px;
+}
+
+.raise__bid__amount__box input,
+.raise__bid__amount__box .btn {
+  border-radius: 0;
+  border: 1px solid #00381526;
+  box-shadow: none !important;
+  transition: all 0.15s;
+}
+
+.raise__bid__amount__box .btn:disabled,
+.raise__bid__amount__box .btn[disabled="true"] {
+  pointer-events: fill;
+  cursor: not-allowed;
+}
+
+.raise__bid__amount__box button[name="increase"] {
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+.raise__bid__amount__box button[name="decrease"] {
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+}
+
+.raise__bid__amount__box .btn .control__icon {
+  transform: scale(1.5);
+  font-weight: bold;
+}
+
+.raise__bid__amount__box .btn:not(.btn:disabled):hover {
+  background-color: #198754 !important;
+}
+
+.raise__bid__amount__box .btn:not(.btn:disabled):hover .control__icon {
+  color: #fff !important;
+}
+
+.raise__bid__amount__box input {
+  background: transparent !important;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: default;
+}
+
+.raise__bid__amount__box input:focus {
+  border: 1px solid #00381526;
+}
+
+.raise__bid__amount__box .last__increment__time {
+  font-size: 0.86rem;
+}
+
+.raise__bid__amount__box .last__increment__time span {
+  margin-top: 3px;
+  display: block;
+}
+
+.raise__bid__amount__box .last__increment__time span:nth-child(1) {
+  font-weight: 500;
+}
+
+.raise__bid__amount__box .raise__bid__btn button {
+  margin-top: 18px;
+  width: 100%;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  background: #198754;
+  color: #fff !important;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  transition: all 0.15s;
+}
+
+.raise__bid__amount__box .raise__bid__btn button:hover {
+  background: #0f643d !important;
+}
+
+/* Auctions Bids List */
+.auction__biddings__box .auction__head__box {
+  display: flex;
+  justify-content: center;
+}
+
+.auction__biddings__box .auction__head__box .heading {
+  text-align: center;
+  flex: 2;
+}
+
+.auction__biddings__box .auction__head__box .heading .heading__border {
+  width: 35px;
+  height: 0;
+  margin: -5px auto auto auto;
+  border: 1px dashed #808080;
+}
+
+.auction__biddings__box .auction__head__box .refresh__icon {
+  color: #616161;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.auction__biddings__box .auction__head__box .refresh__icon:hover {
+  color: #000;
+}
+
+.auction__biddings .auction__bidding__item {
+  margin-top: 12px;
+  background: #dedddd;
+  border-radius: 5px;
+}
+
+.auction__biddings .bidding__item__col {
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.auction__biddings .bidding__item__col > * {
+  margin: 0;
+}
+
+.auction__biddings .auction__bidding__item .bid__company__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auction__biddings .auction__bidding__item img {
+  max-width: 100%;
+  max-height: 50px;
+  transform: scale(1.1);
+}
+
+.auction__biddings .auction__bidding__item .bidding__company__name {
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  font-size: 1.1rem;
+  color: #2b2b2b;
+}
+
+.auction__biddings .auction__bidding__item .bidding__time {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #777777;
+}
+
+.auction__biddings .auction__bidding__item .bidding__offer__amount {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.auction__biddings__box .not__bid__section {
+  margin-top: 20px;
+  height: 222px;
+  background: #dedddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  box-shadow: 0px 2px 4px #00000035;
+}
+
+.auction__biddings__box .not__bid__section p:nth-child(1) {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.auction__biddings__box .not__bid__section p:nth-child(2) {
+  font-size: 0.9rem;
+  color: #464646;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .auction__window__box {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .auction__candidate__info .info__col1 img {
+    height: 150px;
+  }
+
+  .auction__candidate__info .info__col3 ul {
+    font-size: 0.9rem;
+  }
+
+  .auction__candidate__info .info__col2 .candidate__name {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .current__bid__col {
+    justify-content: flex-start !important;
+  }
+
+  .auction__candidate__info .info__col1 img {
+    height: 130px;
+  }
+
+  .auction__candidate__info .info__col2 .candidate__name {
+    font-size: 1.35rem;
+  }
+
+  .auction__candidate__info .info__col2 .extra__info {
+    margin-top: 18px;
+  }
+
+  .auction__window__inner__box .raise__bid__amount__box {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .auction__biddings .auction__bidding__item img {
+    max-height: 35px;
+  }
+}

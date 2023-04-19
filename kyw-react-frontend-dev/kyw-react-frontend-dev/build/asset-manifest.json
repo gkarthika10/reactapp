@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10c134b3.css",
+    "main.js": "/static/js/main.a4532f19.js",
+    "static/js/27.46852ed3.chunk.js": "/static/js/27.46852ed3.chunk.js",
+    "static/media/MakeMyTrip_Logo.png": "/static/media/MakeMyTrip_Logo.85035c746088ddc6b901.png",
+    "static/media/APISERO-logo.svg": "/static/media/APISERO-logo.9a5fc30412e864282234304920b870c0.svg",
+    "static/media/JustDial_Logo.png": "/static/media/JustDial_Logo.55eed473703ff5c62904.png",
+    "static/media/home_banner.png": "/static/media/home_banner.ee1b12992f3b4bc1bb5d.png",
+    "static/media/business_banner.png": "/static/media/business_banner.96fb0e83fe9772fd8382.png",
+    "static/media/Candidate3.jpg": "/static/media/Candidate3.ddaa21f6ef165fa66840.jpg",
+    "static/media/companies-lg.jpg": "/static/media/companies-lg.19406bcdbb92787a4f9c.jpg",
+    "static/media/companies-md.jpg": "/static/media/companies-md.9a975fe95a73e05ed9c1.jpg",
+    "static/media/contact.jpg": "/static/media/contact.4623926463497868988f.jpg",
+    "static/media/Amazon_Logo.png": "/static/media/Amazon_Logo.aafa3b257b3c76357736.png",
+    "static/media/companies-sm.jpg": "/static/media/companies-sm.5ac0d8b49789be870b64.jpg",
+    "static/media/become_partner_banner.jpg": "/static/media/become_partner_banner.2ed65cab7e9ca024d184.jpg",
+    "static/media/Candidate2.png": "/static/media/Candidate2.a19f6051d171c6652a93.png",
+    "static/media/error_notification.mp3": "/static/media/error_notification.44468bca5e37fde459f6.mp3",
+    "static/media/success_notification.mp3": "/static/media/success_notification.3b3e0c6e227ca46a8634.mp3",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.10c134b3.css",
+    "static/js/main.a4532f19.js"
+  ]
+}
